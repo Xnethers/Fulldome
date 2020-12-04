@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: FAE_Water
   m_Shader: {fileID: 4800000, guid: f8df9d72baf4e0c4bac2d4036f6c5d7b, type: 3}
   m_ShaderKeywords: _WORLDSPACETILING_ON
@@ -59,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Reflection:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8900000, guid: 8f571cd1b2ea5774cac1b428387c3ecd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RefractionmapEdgeB:
@@ -73,11 +74,11 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _Depth: 5.6
+    - _Depth: 6.6
     - _Depthdarkness: 0.58
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FlowSpeed: 0.3
+    - _FlowSpeed: 7
     - _Fresnelexponent: 4
     - _Glossiness: 0.021
     - _HighlightPanning: 0
@@ -85,18 +86,18 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RefractionAmount: 0
+    - _RefractionAmount: 0.05
     - _RimDistance: 0
     - _RimSize: 4
-    - _Rimfalloff: 0.25
+    - _Rimfalloff: 0
     - _Rimtiling: 0.79
     - _SrcBlend: 1
     - _SurfaceHighlight: 0.101
     - _SurfaceHightlighttiling: 0.25
     - _Surfacehightlightsize: 0
     - _TesselationEdgeLengt: 0.15
-    - _Tiling: 0.26
-    - _Transparency: 0.368
+    - _Tiling: 0.15
+    - _Transparency: 0.48
     - _UVSec: 0
     - _UseIntersectionHighlight: 1
     - _Wavesspeed: 0.37
@@ -109,4 +110,4 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WaterColor: {r: 0.21323532, g: 0.67444223, b: 1, a: 1}
+    - _WaterColor: {r: 0, g: 0.58706474, b: 1, a: 1}

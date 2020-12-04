@@ -110,9 +110,9 @@ Shader "FAE/Water" {
                 float node_3981 = (node_8305.r*0.8);
                 float2 node_4686 = i.posWorld.rgb.rb;
                 float2 node_5510 = (node_4686*_Tiling);
-                float2 node_9360 = (node_5510+node_3981*float2(0,1.1));
+                float2 node_9360 = (node_5510+node_3981*float2(0,1.1)*_FlowSpeed);
                 float3 node_4911 = UnpackNormal(tex2D(_Normals,node_9360));
-                float2 node_1488 = (node_5510+node_3981*float2(0.9,0));
+                float2 node_1488 = (node_5510+node_3981*float2(0.9,0)*_FlowSpeed);
                 float3 node_49111 = UnpackNormal(tex2D(_Normals,node_1488));
                 float3 node_1309_nrm_base = node_4911.rgb + float3(0,0,1);
                 float3 node_1309_nrm_detail = node_49111.rgb * float3(-1,-1,1);
