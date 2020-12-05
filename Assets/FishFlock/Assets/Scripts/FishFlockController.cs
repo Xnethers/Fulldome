@@ -175,6 +175,7 @@ namespace FishFlock
             }
 
             flockingParent = new GameObject("FlockingAgents").transform;
+            flockingParent.transform.parent = transform;
 
             if(swimOnLocalSpace)
                 flockingParent.position = groupAnchor;
