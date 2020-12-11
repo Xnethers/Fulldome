@@ -157,9 +157,9 @@ namespace FishFlock
 
             groupAnchor = myTransform.position;
 
-            if(followTarget)
+            if (followTarget)
             {
-                if(target)
+                if (target)
                 {
                     groupAnchor = target.position;
                 }
@@ -175,9 +175,9 @@ namespace FishFlock
             }
 
             flockingParent = new GameObject("FlockingAgents").transform;
-            flockingParent.transform.parent = transform;
+            // flockingParent.SetParent(transform);
 
-            if(swimOnLocalSpace)
+            if (swimOnLocalSpace)
                 flockingParent.position = groupAnchor;
 
             if (!followTarget) GeneratePath();
@@ -187,9 +187,9 @@ namespace FishFlock
             {
                 behaviours.Add(CreateAgent(agentsTransforms, i));
             }
-            
 
-            if(targetToAttack)
+
+            if (targetToAttack)
             {
                 targetToAttackTransform = targetToAttack.transform;
             }
@@ -198,7 +198,7 @@ namespace FishFlock
         private void Start()
         {
             predators = FindObjectsOfType<Predator>();
-            StartCoroutine(GroupAnchorRandomMovement());           
+            StartCoroutine(GroupAnchorRandomMovement());
         }
 
         FishBehaviour CreateAgent(List<Transform> transforms, int i)
@@ -218,7 +218,7 @@ namespace FishFlock
             ab.radius = fishSize;
             ab.scaredTime = 0.0f;
             ab.distFromNeighbour = neighbourDistance;
-            ab.currentPos =   agentTransform.position ;
+            ab.currentPos = agentTransform.position;
             ab.destination = followTarget ? target.position : agentTransform.position;
             agentTransform.position = ab.currentPos;
             ab.velocity = new Vector3(0, 0, 0);
@@ -258,7 +258,7 @@ namespace FishFlock
             queueToClear.Add(id);
 
             Transform t = agentsTransforms[index];
-            t.gameObject.SetActive(false);        
+            t.gameObject.SetActive(false);
         }
 
         void UpdateTempVariables()
@@ -285,7 +285,7 @@ namespace FishFlock
 
         void Update()
         {
-            if(swimOnLocalSpace) flockingParent.position = groupAnchor;
+            if (swimOnLocalSpace) flockingParent.position = groupAnchor;
 
             if (frameSkipAmountCount >= frameSkipAmount) frameSkipAmountCount = 0;
 
@@ -323,7 +323,7 @@ namespace FishFlock
                 btransformPosition += btransformForward * deltaTime * behaviour.acceleration;
                 behaviour.currentPos = btransformPosition;
 
-                if(attackTarget)
+                if (attackTarget)
                 {
                     behaviour.seek = true;
                     behaviour.destination = targetToAttackTransform.position;
@@ -367,7 +367,7 @@ namespace FishFlock
                         btransformRotation = Quaternion.Slerp(btransformRotation, rotation, behaviour.turnSpeed * deltaTime);
                     }
                 }
-            
+
                 if (refreshVariables)
                 {
                     behaviour.acceleration = Random.Range(minAcceleration, maxAcceleration);
@@ -381,7 +381,7 @@ namespace FishFlock
                     btransform.position = btransformPosition;
                 }
 
-                if(OnUpdateFishEvent != null)
+                if (OnUpdateFishEvent != null)
                 {
                     behaviour = OnUpdateFishEvent(behaviour);
                 }
@@ -525,7 +525,7 @@ namespace FishFlock
                 Vector3 vel = (targetPositions[currentTargetPosIndex] - groupAnchor);
                 futurePosition = groupAnchor + vel * Time.deltaTime * 0.8f;
             }
-            else if(followTarget)
+            else if (followTarget)
             {
                 if (target != null)
                 {
@@ -607,7 +607,7 @@ namespace FishFlock
                 groupAreaHeight = swimmingAreaHeight;
                 groupAreaDepth = swimmingAreaDepth;
 
-               Debug.Log("[Flocking Behaviour] The group area can't be bigger than the bounds.");
+                Debug.Log("[Flocking Behaviour] The group area can't be bigger than the bounds.");
             }
 
             if (!debugDraw) return;
@@ -635,14 +635,14 @@ namespace FishFlock
 
                     Gizmos.DrawWireSphere(targetPositions[i], 1f);
 
-                    if((i + 1)== targetPositions.Length - 1)
+                    if ((i + 1) == targetPositions.Length - 1)
                         Gizmos.DrawWireSphere(targetPositions[i + 1], 1f);
                 }
             }
         }
 
         public void OnFlockingCalcCompleted(List<FishBehaviour> behaviours)
-        {          
+        {
             for (int i = 0; i < behaviours.Count; i++)
             {
                 if (i < this.behaviours.Count)
@@ -658,7 +658,7 @@ namespace FishFlock
         {
             FlockMain.running = false;
 
-            if(FlockMain.flockThreadCalc != null)
+            if (FlockMain.flockThreadCalc != null)
             {
                 FlockMain.flockThreadCalc.Abort();
                 FlockMain.flockThreadCalc = null;

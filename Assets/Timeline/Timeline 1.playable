@@ -56,7 +56,7 @@ MonoBehaviour:
     m_Framerate: 60
   m_DurationMode: 0
   m_MarkerTrack: {fileID: -248777830823843681}
---- !u!114 &2429342266466105402
+--- !u!114 &2388667572121525448
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,10 +90,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 10
+    m_Start: 13.613089791499078
     m_ClipIn: 0
     m_Asset: {fileID: -6197212305333232284}
-    m_Duration: 10
+    m_Duration: 60.35
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3529274208122891903}
     m_EaseInDuration: 0
@@ -185,8 +185,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 2429342266466105402}
-    m_Duration: 10
+    m_Asset: {fileID: 2388667572121525448}
+    m_Duration: 60.35
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8199330879899225924}
     m_EaseInDuration: 0

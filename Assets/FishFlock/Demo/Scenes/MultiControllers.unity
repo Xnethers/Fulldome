@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -641,7 +641,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &663420285
 Animator:
   serializedVersion: 3
@@ -673,7 +673,7 @@ PlayableDirector:
   m_PlayableAsset: {fileID: 11400000, guid: 2c8db30c71001264c8d2b77aa2d6c671, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
-  m_DirectorUpdateMode: 1
+  m_DirectorUpdateMode: 2
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -6450513677877485039, guid: 396e0ce07b8868744a8691721e9b3ab0, type: 2}
@@ -688,10 +688,13 @@ PlayableDirector:
     value: {fileID: 2001366624}
   - key: {fileID: 3529274208122891903, guid: 2c8db30c71001264c8d2b77aa2d6c671, type: 2}
     value: {fileID: 2143792342}
+  - key: {fileID: -8054808129831258392, guid: 2c8db30c71001264c8d2b77aa2d6c671, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - b4fe0ac9aa97376478ba8efcde30e99a: {fileID: 0}
     - 6222f4111efaf3a47a557b160d15a0ec: {fileID: 0}
+    - 69da14ea8e66f4540aaa496c941cfec2: {fileID: 2001366624}
     - 17d02fae02ae2254a9ef023d28f0d4af: {fileID: 0}
 --- !u!4 &663420287
 Transform:
@@ -1870,7 +1873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2143792343
 MonoBehaviour:
   m_ObjectHideFlags: 0
