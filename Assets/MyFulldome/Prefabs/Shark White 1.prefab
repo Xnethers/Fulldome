@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4220827422172992}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006209673434210}
-  m_LocalRotation: {x: 0, y: 0.017810762, z: -0, w: 0.9998414}
+  m_LocalRotation: {x: 0, y: 0.017810762, z: 0, w: 0.9998414}
   m_LocalPosition: {x: -0.7882348, y: -3.5527136e-17, z: -1.7502328e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -32,7 +32,7 @@ Transform:
   - {fileID: 4643219566990180}
   m_Father: {fileID: 4539287644068288}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -1.9458225, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 2.0410707, z: 0}
 --- !u!1 &1069076380946678
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4642527198709646}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,7 @@ Transform:
   - {fileID: 4434769879670752}
   m_Father: {fileID: 4047179505501450}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 2.8225932, y: 23.770311, z: -22.921026}
+  m_LocalEulerAnglesHint: {x: -7.55453, y: -21.533329, z: -20.680676}
 --- !u!1 &1159189344086906
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4539287644068288}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4642795748749018}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4369990934789834}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4051335586332630}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ Transform:
   - {fileID: 4658566633001304}
   m_Father: {fileID: 4220827422172992}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -4.0015798, y: 60.894653, z: -6.074447}
+  m_LocalEulerAnglesHint: {x: -0.027160672, y: 60.66064, z: -0.04112023}
 --- !u!1 &1225085096045280
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4299673902266862}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4047179505501450}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -251,7 +251,7 @@ Transform:
   - {fileID: 4120181465842766}
   m_Father: {fileID: 4498716034079092}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.00003952448, y: 20.013401, z: -0.0019168757}
+  m_LocalEulerAnglesHint: {x: -0.00036689677, y: -22.678009, z: -0.00047669874}
 --- !u!1 &1259171562369466
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4007719969526246}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ Transform:
   - {fileID: 4299673902266862}
   m_Father: {fileID: 4539287644068288}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0.5558867, y: -179.97284, z: 12.321176}
+  m_LocalEulerAnglesHint: {x: 0.0037777284, y: -179.99995, z: 10.310348}
 --- !u!1 &1269824962513062
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,11 +293,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4330921921975240}
   - component: {fileID: 95617858511301848}
-  - component: {fileID: 143958667059478542}
-  - component: {fileID: 114075503107791562}
-  - component: {fileID: 195253337017007154}
-  m_Layer: 0
-  m_Name: Shark White
+  - component: {fileID: 1471484544}
+  m_Layer: 2
+  m_Name: Shark White 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -310,9 +308,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269824962513062}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5, y: 1, z: 9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4539287644068288}
   - {fileID: 4672438900421040}
@@ -332,108 +330,31 @@ Animator:
   m_Controller: {fileID: 9100000, guid: bd121a59e34ac444593090dbb1b4547f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!143 &143958667059478542
-CharacterController:
+--- !u!1183024399 &1471484544
+LookAtConstraint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269824962513062}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 3.45
-  m_Radius: 0.71
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114075503107791562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269824962513062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36003be02bd7fc54db18675085e2ab6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idleStates:
-  - stateName: Swimming
-    animationBool: isSwimming
-    minStateTime: 0
-    maxStateTime: 0
-    stateWeight: 0
-  movementStates:
-  - stateName: Swim
-    animationBool: isSwimming
-    maxStateTime: 100
-    moveSpeed: 1
-    turnSpeed: 200
-  attackingStates:
-  - stateName: Attack
-    animationBool: isAttacking
-  deathStates:
-  - stateName: Death
-    animationBool: isDead
-  species: Shark
-  stats: {fileID: 11400000, guid: 32e31de22005d9c44b70a9f51da0dd4b, type: 2}
-  wanderZone: 50
-  awareness: 30
-  scent: 30
-  constainedToWanderZone: 0
-  nonAgressiveTowards: []
-  matchSurfaceRotation: 0
-  surfaceRotationSpeed: 2
-  logChanges: 0
-  showGizmos: 0
-  drawWanderRange: 1
-  drawScentRange: 1
-  drawAwarenessRange: 1
-  deathEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  attackingEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  idleEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  movementEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!195 &195253337017007154
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269824962513062}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0.8
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_Enabled: 0
+  m_Weight: 1
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationOffset: {x: 0, y: 0, z: 0}
+  m_Roll: 1
+  m_WorldUpObject: {fileID: 0}
+  m_UseUpObject: 0
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 0}
+    weight: 1
 --- !u!1 &1273202866328320
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,7 +364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4434769879670752}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4389997353496538}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +414,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4806103789149488}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -13.2377615, y: -19.527624, z: -0.43892074}
+  m_LocalEulerAnglesHint: {x: -14.161192, y: -19.197714, z: -0.79897904}
 --- !u!1 &1297102220182254
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,7 +424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4316002563955750}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +445,7 @@ Transform:
   - {fileID: 4369990934789834}
   m_Father: {fileID: 4100736855979180}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 7.7552834, y: -0.01820632, z: -57.228584}
+  m_LocalEulerAnglesHint: {x: -4.0947185, y: 0.012399202, z: -55.977432}
 --- !u!1 &1403199743273384
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,7 +455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4748734873626368}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +476,7 @@ Transform:
   - {fileID: 4670227576298752}
   m_Father: {fileID: 4643219566990180}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -10.268028, y: -5.7648892, z: -8.170305}
+  m_LocalEulerAnglesHint: {x: -9.775725, y: -5.984907, z: -7.3442535}
 --- !u!1 &1439929876405262
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4120181465842766}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -586,7 +507,7 @@ Transform:
   - {fileID: 4642795748749018}
   m_Father: {fileID: 4047179505501450}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -19.027594, y: 13.049402, z: 26.430386}
+  m_LocalEulerAnglesHint: {x: 25.37116, y: -3.3430803, z: 33.646446}
 --- !u!1 &1453999681568530
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,7 +517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4498716034079092}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +538,7 @@ Transform:
   - {fileID: 4047179505501450}
   m_Father: {fileID: 4900935419333138}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.00080401055, y: 9.676538, z: -0.048908383}
+  m_LocalEulerAnglesHint: {x: -0.00012151624, y: -7.3671007, z: -0.0003421148}
 --- !u!1 &1473775335914834
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,7 +548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4659108311966308}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,7 +569,7 @@ Transform:
   - {fileID: 4900935419333138}
   m_Father: {fileID: 4311637579141956}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.064114526, y: 1.2063758, z: -3.0520582}
+  m_LocalEulerAnglesHint: {x: -0.06445408, y: -1.204392, z: -3.052504}
 --- !u!1 &1491482602959658
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +579,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4658566633001304}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +600,7 @@ Transform:
   - {fileID: 4806103789149488}
   m_Father: {fileID: 4051335586332630}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -11.406096, y: -6.265697, z: -8.461355}
+  m_LocalEulerAnglesHint: {x: -11.694112, y: -6.0765724, z: -9.457135}
 --- !u!1 &1524472597890340
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +610,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4621134486806172}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -709,7 +630,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4670227576298752}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -12.502128, y: -18.412382, z: -1.0683634}
+  m_LocalEulerAnglesHint: {x: -11.579381, y: -18.653162, z: -0.96437377}
 --- !u!1 &1546929769764624
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,7 +640,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4446101428643362}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -749,7 +670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4643219566990180}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -770,7 +691,7 @@ Transform:
   - {fileID: 4748734873626368}
   m_Father: {fileID: 4220827422172992}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 5.252831, y: -60.686672, z: 179.28255}
+  m_LocalEulerAnglesHint: {x: 2.8657768, y: -60.779037, z: 175.35066}
 --- !u!1 &1603073523802626
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4865041029400594}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -801,7 +722,7 @@ Transform:
   - {fileID: 4311637579141956}
   m_Father: {fileID: 4100736855979180}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.69545525, y: -3.4505887, z: 7.800164}
+  m_LocalEulerAnglesHint: {x: -0.0021282574, y: 1.6348535, z: 7.810431}
 --- !u!1 &1604303565354836
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +732,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4806103789149488}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -832,7 +753,7 @@ Transform:
   - {fileID: 4389997353496538}
   m_Father: {fileID: 4658566633001304}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -14.043973, y: -29.942173, z: -1.2481592}
+  m_LocalEulerAnglesHint: {x: -14.791819, y: -29.649092, z: -1.9496651}
 --- !u!1 &1732388666525850
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,7 +763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4900935419333138}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -863,7 +784,7 @@ Transform:
   - {fileID: 4498716034079092}
   m_Father: {fileID: 4659108311966308}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.00000545576, y: 7.510215, z: -0.00003240075}
+  m_LocalEulerAnglesHint: {x: -0.000004817028, y: -8.53572, z: -0.0000320946}
 --- !u!1 &1765865288221274
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +794,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4617213097444570}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4670227576298752}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -924,7 +845,7 @@ Transform:
   - {fileID: 4621134486806172}
   m_Father: {fileID: 4748734873626368}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -12.8920965, y: -29.318455, z: -1.4931673}
+  m_LocalEulerAnglesHint: {x: -12.054642, y: -29.562191, z: -1.0508038}
 --- !u!1 &1921544773360690
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4023818638718906}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -966,7 +887,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4672438900421040}
   - component: {fileID: 137558153405834778}
-  m_Layer: 0
+  - component: {fileID: 538302232}
+  m_Layer: 2
   m_Name: shark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,6 +989,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.1826255, y: 0.119748235, z: 0.019276261}
     m_Extent: {x: 4.8194895, y: 2.1505837, z: 2.992846}
   m_DirtyAABB: 0
+--- !u!136 &538302232
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949605730199032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.02352339
+  m_Height: 0.0860659
+  m_Direction: 2
+  m_Center: {x: 0.000042770003, y: 0.0037919783, z: 0.0016098465}
 --- !u!1 &1953153166585312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,7 +1012,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4100736855979180}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,7 +1026,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953153166585312}
-  m_LocalRotation: {x: 0, y: 0.038164448, z: -0, w: 0.9992715}
+  m_LocalRotation: {x: 0, y: 0.038164448, z: 0, w: 0.9992715}
   m_LocalPosition: {x: -1.2119694, y: 3.5527136e-17, z: -2.6911126e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1098,7 +1034,7 @@ Transform:
   - {fileID: 4316002563955750}
   m_Father: {fileID: 4220827422172992}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -4.348906, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 4.3743854, z: 0}
 --- !u!1 &1955345098521546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,7 +1044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4311637579141956}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1129,7 +1065,7 @@ Transform:
   - {fileID: 4659108311966308}
   m_Father: {fileID: 4865041029400594}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.24343331, y: -1.9048843, z: 3.0508366}
+  m_LocalEulerAnglesHint: {x: 0.011818261, y: 2.511635, z: 3.0530784}
 --- !u!1 &1974122247998062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,7 +1075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4671116369216816}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: joint14
   m_TagString: Untagged
   m_Icon: {fileID: 0}

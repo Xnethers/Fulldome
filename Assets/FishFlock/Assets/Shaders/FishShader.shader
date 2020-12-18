@@ -5,6 +5,7 @@
 		_Color ("Color", Color) = (1,1,1,1)
 		[HDR] _EmissionColor("Emission Color", Color) = (0,0,0)
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
+		_EmissionMap ("Emission Map", 2D) = "black" {}
 		_Glossiness ("Smoothness", Range(0,1)) = 0.5
 		_Metallic ("Metallic", Range(0,1)) = 0.0
 		_AnimationSpeed("Animation Speed", Range(0 , 10)) = 0.5
@@ -29,6 +30,7 @@
 		};
 
 		sampler2D _MainTex;
+		sampler2D  _EmissionMap;
 		uniform float _AnimationSpeed;
 		uniform float _Yaw;
 		uniform float _Roll;
@@ -50,9 +52,10 @@
 		void surf (Input IN, inout SurfaceOutputStandard o) 
 		{
 			fixed4 c = tex2D (_MainTex, IN.uvcoord) * _Color;
+			fixed4 e = tex2D (_MainTex, IN.uvcoord) * _EmissionColor;
 			o.Albedo = c.rgb;
 			o.Alpha = c.a;
-			o.Emission = c.rgb * tex2D(_MainTex, IN.uvcoord).a * _EmissionColor;
+			o.Emission = e;
 			o.Metallic = _Metallic;
 			o.Smoothness = _Glossiness;
 		}

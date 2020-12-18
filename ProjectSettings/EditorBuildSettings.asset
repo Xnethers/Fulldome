@@ -4,4 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MyFulldome/Movie 1.unity
+    guid: 60053c3c269ad54409b51f40ae5bd28f
+  - enabled: 1
+    path: Assets/MyFulldome/Movie 2.unity
+    guid: 65b419ff8c9933d4bb96bbe967df7d09
+  m_configObjects: {}

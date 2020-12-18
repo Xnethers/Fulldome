@@ -145,6 +145,13 @@ namespace FishFlock
 
         void Awake()
         {
+
+        }
+
+        private void Start()
+        {
+            predators = FindObjectsOfType<Predator>();
+            StartCoroutine(GroupAnchorRandomMovement());
             controllers.Add(this);
             my_id = controllers.Count - 1;
 
@@ -175,7 +182,6 @@ namespace FishFlock
             }
 
             flockingParent = new GameObject("FlockingAgents").transform;
-            // flockingParent.SetParent(transform);
 
             if (swimOnLocalSpace)
                 flockingParent.position = groupAnchor;
@@ -193,12 +199,6 @@ namespace FishFlock
             {
                 targetToAttackTransform = targetToAttack.transform;
             }
-        }
-
-        private void Start()
-        {
-            predators = FindObjectsOfType<Predator>();
-            StartCoroutine(GroupAnchorRandomMovement());
         }
 
         FishBehaviour CreateAgent(List<Transform> transforms, int i)
@@ -663,6 +663,19 @@ namespace FishFlock
                 FlockMain.flockThreadCalc.Abort();
                 FlockMain.flockThreadCalc = null;
             }
+            Destroy(flockingParent.gameObject);
+        }
+
+        private void OnDisable()
+        {
+            FlockMain.running = false;
+
+            if (FlockMain.flockThreadCalc != null)
+            {
+                FlockMain.flockThreadCalc.Abort();
+                FlockMain.flockThreadCalc = null;
+            }
+            Destroy(flockingParent.gameObject);
         }
 
         private void OnApplicationQuit()
