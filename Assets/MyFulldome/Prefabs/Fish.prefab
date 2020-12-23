@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4199426004562478}
   - component: {fileID: 95195789292916960}
-  - component: {fileID: 143739096255890176}
-  - component: {fileID: 114466293087489374}
   - component: {fileID: 1379291806263350811}
   m_Layer: 0
   m_Name: Fish
@@ -55,76 +53,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!143 &143739096255890176
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005335091568968}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.16, z: 0}
---- !u!114 &114466293087489374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005335091568968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36003be02bd7fc54db18675085e2ab6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idleStates:
-  - stateName: Swim
-    animationBool: isSwimming
-    minStateTime: 0
-    maxStateTime: 0
-    stateWeight: 0
-  movementStates:
-  - stateName: Swim
-    animationBool: isSwimming
-    maxStateTime: 10
-    moveSpeed: 2
-    turnSpeed: 200
-  attackingStates: []
-  deathStates: []
-  species: Fish
-  stats: {fileID: 11400000, guid: 9a29535241efed3499d962d584f5db75, type: 2}
-  wanderZone: 25
-  awareness: 30
-  scent: 30
-  constainedToWanderZone: 0
-  nonAgressiveTowards: []
-  matchSurfaceRotation: 0
-  surfaceRotationSpeed: 2
-  logChanges: 0
-  showGizmos: 0
-  drawWanderRange: 1
-  drawScentRange: 1
-  drawAwarenessRange: 1
-  deathEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  attackingEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  idleEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  movementEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!136 &1379291806263350811
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -138,7 +66,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 1
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: -0.59}
+  m_Center: {x: 0, y: 0, z: -0.5899999}
 --- !u!1 &1082120783874040
 GameObject:
   m_ObjectHideFlags: 0
